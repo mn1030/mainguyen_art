@@ -1,0 +1,49 @@
+/* Sammy's Stylesheet */
+
+h1 {
+    text-align: center;
+    color: #FF82A0
+}
+
+div{
+    text-align: center;
+  text-justify: inter-word;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #5E5E5E;
+    
+    
+}
+
+ul{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding-left: 0;
+}
+li::marker{
+    content:"♥";
+    color: #5E5E5E
+}
+
+a:link{
+    color: #5E5E5E;
+}
+a:visited{
+    color: #C8C8C8;
+}
+a:active{
+    color: #FF82A0;
+}
+
+#wrapper {
+    width: 1500px;
+    margin: 0px auto;
+ 
+  }
+
+
