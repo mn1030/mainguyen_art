@@ -1,22 +1,62 @@
 /* Sammy's Stylesheet */
 
+body {
+    background-image: url('https://i.pinimg.com/originals/18/80/0f/18800f9c0d9e33a3a95dfd0731a049a0.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
 h1 {
     text-align: center;
-    color: #FF82A0
+    color: #fd6d8f;
+    text-shadow: 2px 2px 8px #ffb7c7;
+}
+
+h3{
+    text-align: center;
+    color: #fd6d8f;
+    text-shadow: 2px 2px 8px #ffb7c7;
 }
 
 div{
     text-align: center;
-  text-justify: inter-word;
+    text-justify: inter-word;
+
 }
 
 p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: #5E5E5E;
-    
+    text-shadow: 2px 2px 8px #d39999;
+    margin: 0 50px;
     
 }
+
+button {
+    border: 2px solid #fc6387;
+    color: black;
+    background-color: white;
+    border-radius:12px;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+
+  }
+  
+  
+  button:hover {
+    background-color: #ffc3d1;
+    color: white;
+  }
 
 ul{
     font-family: 'Courier New', Courier, monospace;
