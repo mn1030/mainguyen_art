@@ -1,13 +1,10 @@
-/* Sammy's Stylesheet */
+/* Stylesheet */
 
-body {
-    background-image: url('https://i.pinimg.com/originals/18/80/0f/18800f9c0d9e33a3a95dfd0731a049a0.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-  }
 
-h1 {
+
+
+
+  h1 {
     text-align: center;
     color: #fd6d8f;
     text-shadow: 2px 2px 8px #ffb7c7;
@@ -28,8 +25,9 @@ div{
 p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    letter-spacing: 2px;
     color: #5E5E5E;
-    text-shadow: 2px 2px 8px #d39999;
+    text-shadow: 4px 4px 16px #f8a2b4;
     margin: 0 50px;
     
 }
@@ -62,6 +60,8 @@ ul{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     display: table;
+    text-shadow: 4px 4px 16px #f8a2b4;
+
     margin: 0 auto;
     padding-left: 0;
 }
