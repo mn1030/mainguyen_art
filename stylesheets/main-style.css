@@ -59,12 +59,12 @@ button {
 
 ul{
     font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    display: table;
+    
+    letter-spacing: 2px;
     text-shadow: 4px 4px 16px #f8a2b4;
 
     margin: 0 auto;
-    padding-left: 0;
+    
 }
 li::marker{
     content:"♥";
