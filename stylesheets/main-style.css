@@ -1,16 +1,17 @@
 /* Stylesheet */
 
-
-
-
-
+body{
+    margin: 0 80px;
+}
   h1 {
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #fd6d8f;
     text-shadow: 2px 2px 8px #ffb7c7;
 }
 
 h3{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #fd6d8f;
     text-shadow: 2px 2px 8px #ffb7c7;
@@ -28,7 +29,7 @@ p{
     letter-spacing: 2px;
     color: #5E5E5E;
     text-shadow: 4px 4px 16px #f8a2b4;
-    margin: 0 50px;
+    margin: 0 400px;
     
 }
 
@@ -85,5 +86,6 @@ a:active{
     margin: 0px auto;
  
   }
+
 
 

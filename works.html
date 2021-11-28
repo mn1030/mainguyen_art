@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Mai's Portfolio</title>
-    <link rel="stylesheet" href="stylesheets/sammy-style.css">
+    <link rel="stylesheet" href="stylesheets/main-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
     
@@ -208,6 +210,7 @@
       </script>
 
   </head>
+  
   <body>
     <header>
       <h1>Mai Nguyen</h1>
@@ -242,26 +245,46 @@
 
     <div>
       
-      <p > Check out my stuff!</p>
+      <p > Check out my illustrations!</p>
       <br><br>
-
-      <!-- Teto1 -->
-      <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/2631a9f8.jpg?v=2d2619ca" style = "height:400px; margin:0%;">
       
-      <!-- LoveMiku -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/0ad0564f.jpg?v=2d2619ca" style = "height:400px; margin: 0%;">
-      <!-- Noi -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/528aeeee.jpg?v=2d2619ca" style = "height:400px; margin:0%;">
-      <!-- Alien -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/6c6f43eb.jpg?v=2d2619ca" style = "height:400px; margin: 0%;">
-      <!-- Vocalook -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/22b7f4ab.jpg?v=2d2619ca" style = "height:400px; margin: 0%">
-      <!-- HeavenHell -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/316386d6.jpg?v=2d2619ca" style = "height:400px; margin: 0%;">
-      <!-- Melt -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/f5ee389b.jpg?v=2d2619ca" style = "height:400px; margin:0%;">
-      <!-- Teto2 -->
-      <img src="https://maiportfolio.carrd.co/assets/images/gallery03/79e19f3a.jpg?v=2d2619ca" style = "height:400px; margin: 0%;">
+      <div class="w3-row-padding">
+
+        <div>
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/2631a9f8_original.jpg?v=2d2619ca" style = "height:400px; margin:0%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image1">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/0ad0564f_original.jpg?v=2d2619ca" style = "height:400px; margin:0%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image2">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/528aeeee_original.jpg?v=2d2619ca" style = "height:400px; margin:0%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image3">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/6c6f43eb_original.jpg?v=2d2619ca" style = "height:400px; margin:0%; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image4">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/22b7f4ab_original.jpg?v=2d2619ca" style = "height:400px; margin-top:10px; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image5">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/316386d6_original.jpg?v=2d2619ca" style = "height:400px; margin-top:10px; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image6">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/f5ee389b_original.jpg?v=2d2619ca" style = "height:400px; margin-top:10px; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image7">
+
+          <img src = "https://maiportfolio.carrd.co/assets/images/gallery03/79e19f3a_original.jpg?v=2d2619ca" style = "height:400px; margin-top:10px; cursor: pointer;" onclick="onClick(this)" class="w3-hover-opacity" alt="image8">
+
+        </div>
+
+      </div>
+
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img id="img01" style="width: 75%; height: auto;vertical-align:top;">
+        </div>
+      </div>
+
+      <script>
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+        }
+        </script>
 
       <br><br><br>
 
