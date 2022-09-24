@@ -46,10 +46,9 @@ button {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-
-
-
   }
+
+
   
   
   button:hover {
@@ -73,19 +72,34 @@ li::marker{
 
 a:link{
     color: #5E5E5E;
+    text-decoration: none;
 }
 a:visited{
-    color: #C8C8C8;
+    color: #FF82A0;
 }
 a:active{
-    color: #FF82A0;
+    color: #C8C8C8;
 }
 
 #wrapper {
     width: 1500px;
     margin: 0px auto;
  
+}
+
+div.works{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right:30px;
+    margin-left:30px;
+    background-color: #ffd0e2;
+    border: 2px solid;
+    border-color: #FF82A0;
+    box-shadow: 10px 10px  #FF82A0;
+}
+
+  img{
+    border-radius: 25px;
+    box-shadow: 0 4px 8px #FF82A0;
   }
-
-
 
